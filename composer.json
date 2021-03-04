@@ -1,0 +1,28 @@
+{
+    "name": "adityar15/converter",
+    "description": "This package allows you to convert majority of metrics in the most easy way.",
+    "license": "MIT",
+    "type":"package",
+    "authors": [
+        {
+            "name": "Aditya",
+            "email": "adityask2194@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "adityar15\\converter\\": "src/"
+        }
+    },
+
+    "extra": {
+        "laravel":{
+            "providers":[
+                "adityar15\\converter\\Converterserviceprovider"
+            ]
+        }
+    }
+}
